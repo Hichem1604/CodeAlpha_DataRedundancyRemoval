@@ -14,13 +14,19 @@ from normalisation import (
     normaliser_telephone,
 )
 
+    # Part: Similarity threshold
 SEUIL_SIMILARITE = 0.85
 
+    # Part: Similarity check
 
 def noms_similaires(nom1,nom2):
     n1 = normaliser_nom(nom1)
     n2 = normaliser_nom(nom2)
     return SequenceMatcher(None, n1, n2).ratio() >= SEUIL_SIMILARITE
+
+
+
+    # Part: Classify contact
 
 def classifier(nom, email, telephone):
     if hash_existe(calculer_hash(nom, email, telephone)):
@@ -44,6 +50,8 @@ def classifier(nom, email, telephone):
     return "nouvelle"
 
 
+    # Part: Process contact
+
 def traiter_contact(nom, email, telephone):
     statut = classifier(nom, email, telephone)
     if statut == "redondante":
@@ -53,6 +61,7 @@ def traiter_contact(nom, email, telephone):
     return statut
 
 
+    # Part: Tests
 
 if __name__ == "__main__":
     init_db()
@@ -65,4 +74,4 @@ if __name__ == "__main__":
     ]
     for nom, email, telephone in tests:
         print(nom.strip(), "->", traiter_contact(nom, email, telephone))
-        
+

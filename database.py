@@ -6,6 +6,7 @@ DB_NAME = "contacts.db"
 def get_connection():
     return sqlite3.connect(DB_NAME)
 
+    # Part: Database Initialization
 
 def init_db():
     with get_connection() as conn:
