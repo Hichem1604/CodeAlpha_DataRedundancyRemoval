@@ -6,6 +6,7 @@ DB_NAME = "contacts.db"
 def get_connection():
     return sqlite3.connect(DB_NAME)
 
+    # Part: Initialisation of Data Base
 
 def init_db():
     with get_connection() as conn:
@@ -21,6 +22,7 @@ def init_db():
             """
         )
 
+    # Part: Insertion Datas
 
 def inserer_contact(nom, email, telephone, hash_value):
     try:
@@ -33,6 +35,7 @@ def inserer_contact(nom, email, telephone, hash_value):
     except sqlite3.IntegrityError:
         return False
 
+    # Part: Tests
 
 if __name__ == "__main__":
     init_db()

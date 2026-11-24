@@ -2,6 +2,7 @@ import hashlib
 import re
 import unicodedata
 
+    # Partie: Normalisation Datas
 
 def normaliser_nom(nom):
     nom = nom.strip().lower()
@@ -19,6 +20,8 @@ def normaliser_telephone(telephone):
     return re.sub(r"\D", "", telephone or "")
 
 
+    # Part: Calculate hash
+
 def calculer_hash(nom, email, telephone):
     cle = "|".join([
         normaliser_nom(nom),
@@ -27,6 +30,8 @@ def calculer_hash(nom, email, telephone):
     ])
     return hashlib.sha256(cle.encode("utf-8")).hexdigest()
 
+
+    # Part: Tests
 
 if __name__ == "__main__":
     h1 = calculer_hash("Ahmed Benali", "ahmed@mail.com", "0555 12 34 56")
