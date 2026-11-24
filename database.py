@@ -6,8 +6,7 @@ DB_NAME = "contacts.db"
 def get_connection():
     return sqlite3.connect(DB_NAME)
 
-    #Part: Database initialization
-    
+
 def init_db():
     with get_connection() as conn:
         conn.execute(
@@ -21,8 +20,19 @@ def init_db():
             )
             """
         )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS rejets (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                nom TEXT,
+                email TEXT,
+                telephone TEXT,
+                raison TEXT
+            )
+            """
+        )
 
-    # Part: Data insertion
+    # Part: DataBase Insertion
 
 def inserer_contact(nom, email, telephone, hash_value):
     try:
@@ -35,9 +45,26 @@ def inserer_contact(nom, email, telephone, hash_value):
     except sqlite3.IntegrityError:
         return False
 
-    # Part: Tests
+    # Part: Check if hash exists
 
-if __name__ == "__main__":
-    init_db()
-    print(inserer_contact("Ahmed Benali", "ahmed@mail.com", "0555123456", "abc123"))
-    print(inserer_contact("Ahmed Benali", "ahmed@mail.com", "0555123456", "abc123"))
+def hash_existe(hash_value):
+    with get_connection() as conn:
+        ligne = conn.execute(
+            "SELECT 1 FROM contacts WHERE hash = ?", (hash_value,)
+        ).fetchone()
+    return ligne is not None
+
+    # Part: List contacts
+
+def lister_contacts():
+    with get_connection() as conn:
+        return conn.execute("SELECT nom, email, telephone FROM contacts").fetchall()
+
+    # Part: Save Rejected contacts
+
+def enregistrer_rejet(nom, email, telephone, raison):
+    with get_connection() as conn:
+        conn.execute(
+            "INSERT INTO rejets (nom, email, telephone, raison) VALUES (?, ?, ?, ?)",
+            (nom, email, telephone, raison),
+        )
