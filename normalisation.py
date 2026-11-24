@@ -2,7 +2,7 @@ import hashlib
 import re
 import unicodedata
 
-    # Part: Normalisation Datas
+    # Part: Data normalization
 
 def normaliser_nom(nom):
     nom = nom.strip().lower()

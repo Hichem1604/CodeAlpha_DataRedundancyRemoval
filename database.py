@@ -6,8 +6,8 @@ DB_NAME = "contacts.db"
 def get_connection():
     return sqlite3.connect(DB_NAME)
 
-    # Part: Initialisation of Data Base
-
+    #Part: Database initialization
+    
 def init_db():
     with get_connection() as conn:
         conn.execute(
@@ -22,7 +22,7 @@ def init_db():
             """
         )
 
-    # Part: Insertion Datas
+    # Part: Data insertion
 
 def inserer_contact(nom, email, telephone, hash_value):
     try:
