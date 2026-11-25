@@ -1,0 +1,101 @@
+nom,email,telephone,attendu
+Ahmed Benali,ahmed.benali@mail.com,0555100000,nouvelle
+Sara Khelifi,sara.khelifi@mail.com,0555107919,nouvelle
+Yacine Boudiaf,yacine.boudiaf@mail.com,0555115838,nouvelle
+Amina Mansouri,amina.mansouri@mail.com,0555123757,nouvelle
+Karim Haddad,karim.haddad@mail.com,0555131676,nouvelle
+Lina Cherif,lina.cherif@mail.com,0555139595,nouvelle
+Mohamed Belkacem,mohamed.belkacem@mail.com,0555147514,nouvelle
+Nadia Saidi,nadia.saidi@mail.com,0555155433,nouvelle
+Samir Brahimi,samir.brahimi@mail.com,0555163352,nouvelle
+Hélène Merabet,helene.merabet@mail.com,0555171271,nouvelle
+Walid Ziani,walid.ziani@mail.com,0555179190,nouvelle
+Imane Touati,imane.touati@mail.com,0555187109,nouvelle
+Rachid Amrani,rachid.amrani@mail.com,0555195028,nouvelle
+Meriem Slimani,meriem.slimani@mail.com,0555202947,nouvelle
+Omar Bouzid,omar.bouzid@mail.com,0555210866,nouvelle
+Fatima Hamidi,fatima.hamidi@mail.com,0555218785,nouvelle
+Bilal Kaci,bilal.kaci@mail.com,0555226704,nouvelle
+Sofia Laribi,sofia.laribi@mail.com,0555234623,nouvelle
+Nabil Messaoudi,nabil.messaoudi@mail.com,0555242542,nouvelle
+Khadija Rahmani,khadija.rahmani@mail.com,0555250461,nouvelle
+Hichem Yahia,hichem.yahia@mail.com,0555258380,nouvelle
+Salima Zerrouki,salima.zerrouki@mail.com,0555266299,nouvelle
+Adel Ferhat,adel.ferhat@mail.com,0555274218,nouvelle
+Rania Guendouz,rania.guendouz@mail.com,0555282137,nouvelle
+Farid Larbi,farid.larbi@mail.com,0555290056,nouvelle
+Zineb Ouali,zineb.ouali@mail.com,0555297975,nouvelle
+Anis Taleb,anis.taleb@mail.com,0555305894,nouvelle
+Leila Bensaid,leila.bensaid@mail.com,0555313813,nouvelle
+Sofiane Medjdoub,sofiane.medjdoub@mail.com,0555321732,nouvelle
+Djamila Naili,djamila.naili@mail.com,0555329651,nouvelle
+Mohamed Belkcem,mohamed.belkacem@mail.com,0555147514,redondante
+ Zineb  Ouali ,zineb.ouali@mail.com,0555-29-79-75,redondante
+Hélène Meabet,helene.merabet@mail.com,0555-17-12-71,redondante
+Lina Cheriif,lina.cherif@mail.com,0555 13 95 95,redondante
+Djamila Naii,djamila.naili@mail.com,0555 32 96 51,redondante
+Rania Guendoxz,rania.guendouz@mail.com,0555282137,redondante
+Nabil Messaoudi,nabil.messaoudi.pro@mail.com,0661264278,faux_positif
+DJAMILA NAILI,DJAMILA.NAILI@MAIL.COM,0555329651,redondante
+Karim Haddad,karim.haddad.pro@mail.com,0661207142,faux_positif
+Sara Kheifi,sara.khelifi@mail.com,0555-10-79-19,redondante
+Sara Khelifi,sara.khelifi.pro@mail.com,0661260707,faux_positif
+Lina Cherif,lina.cherif.pro@mail.com,0661214284,faux_positif
+Samir Brahimi,samir.brahimi.pro@mail.com,0661246423,faux_positif
+Khadija Rahmani,khadija.rahmani.pro@mail.com,0661224997,faux_positif
+Imane Touati,imane.touati.pro@mail.com,0661257136,faux_positif
+ Meriem  Slimani ,meriem.slimani@mail.com,0555202947,redondante
+SAMIR BRAHIMI,SAMIR.BRAHIMI@MAIL.COM,0555 16 33 52,redondante
+ Lina  Cherif ,lina.cherif@mail.com,0555139595,redondante
+ADEL FERHAT,ADEL.FERHAT@MAIL.COM,0555 27 42 18,redondante
+farid larbi,farid.larbi@mail.com,0555-29-00-56,redondante
+SALIMA ZERROUKI,SALIMA.ZERROUKI@MAIL.COM,0555-26-62-99,redondante
+ Karim  Haddad ,karim.haddad@mail.com,0555 13 16 76,redondante
+sofia laribi,sofia.laribi@mail.com,0555 23 46 23,redondante
+ANIS TALEB,ANIS.TALEB@MAIL.COM,0555305894,redondante
+Walid Ziani,walid.ziani.pro@mail.com,0661253565,faux_positif
+Salima Zerroui,salima.zerrouki@mail.com,0555-26-62-99,redondante
+leila bensaid,leila.bensaid@mail.com,0555313813,redondante
+yacine boudiaf,yacine.boudiaf@mail.com,0555 11 58 38,redondante
+NABIL MESSAOUDI,NABIL.MESSAOUDI@MAIL.COM,0555242542,redondante
+SOFIANE MEDJDOUB,SOFIANE.MEDJDOUB@MAIL.COM,0555-32-17-32,redondante
+Nabil Messsaoudi,nabil.messaoudi@mail.com,0555-24-25-42,redondante
+AMINA MANSOURI,AMINA.MANSOURI@MAIL.COM,0555 12 37 57,redondante
+fatima hamidi,fatima.hamidi@mail.com,0555 21 87 85,redondante
+Leila Bensaid,leila.bensaid.pro@mail.com,0661200000,faux_positif
+Amina Manssouri,amina.mansouri@mail.com,0555 12 37 57,redondante
+ Nadia  Saidi ,nadia.saidi@mail.com,0555-15-54-33,redondante
+SARA KHELIFI,SARA.KHELIFI@MAIL.COM,0555107919,redondante
+Anis Txleb,anis.taleb@mail.com,0555-30-58-94,redondante
+Ahmed Benali,ahmed.benali.pro@mail.com,0661249994,faux_positif
+Bilal Kaxi,bilal.kaci@mail.com,0555-22-67-04,redondante
+Bilal Kaci,bilal.kaci.pro@mail.com,0661242852,faux_positif
+Khadija Rxhmani,khadija.rahmani@mail.com,0555250461,redondante
+Sofia Laribi,sofia.laribi.pro@mail.com,0661267849,faux_positif
+WALID ZIANI,WALID.ZIANI@MAIL.COM,0555179190,redondante
+rania guendouz,rania.guendouz@mail.com,0555 28 21 37,redondante
+HÉLÈNE MERABET,HELENE.MERABET@MAIL.COM,0555 17 12 71,redondante
+ Rachid  Amrani ,rachid.amrani@mail.com,0555 19 50 28,redondante
+Yacine Booudiaf,yacine.boudiaf@mail.com,0555 11 58 38,redondante
+Hichem Yahia,hichem.yahia.pro@mail.com,0661210713,faux_positif
+Amina Mansouri,amina.mansouri.pro@mail.com,0661203571,faux_positif
+khadija rahmani,khadija.rahmani@mail.com,0555-25-04-61,redondante
+Nadia Saaidi,nadia.saidi@mail.com,0555155433,redondante
+ Mohamed  Belkacem ,mohamed.belkacem@mail.com,0555 14 75 14,redondante
+Rachid Amrani,rachid.amrani.pro@mail.com,0661232139,faux_positif
+ Imane  Touati ,imane.touati@mail.com,0555 18 71 09,redondante
+Walid Ziaani,walid.ziani@mail.com,0555 17 91 90,redondante
+Hichem Yahxa,hichem.yahia@mail.com,0555258380,redondante
+bilal kaci,bilal.kaci@mail.com,0555226704,redondante
+Anis Taleb,anis.taleb.pro@mail.com,0661235710,faux_positif
+Meriem Slimani,meriem.slimani.pro@mail.com,0661221426,faux_positif
+Karim Hadxad,karim.haddad@mail.com,0555131676,redondante
+Omar Bouzid,omar.bouzid.pro@mail.com,0661239281,faux_positif
+ Ahmed  Benali ,ahmed.benali@mail.com,0555 10 00 00,redondante
+Yacine Boudiaf,yacine.boudiaf.pro@mail.com,0661228568,faux_positif
+hichem yahia,hichem.yahia@mail.com,0555 25 83 80,redondante
+Salima Zerrouki,salima.zerrouki.pro@mail.com,0661217855,faux_positif
+Adel Fexhat,adel.ferhat@mail.com,0555-27-42-18,redondante
+ Omar  Bouzid ,omar.bouzid@mail.com,0555210866,redondante
+Sofiane Medjdob,sofiane.medjdoub@mail.com,0555 32 17 32,redondante
+Imane Toxati,imane.touati@mail.com,0555187109,redondante
